@@ -1,0 +1,41 @@
+:root {
+  --color-bg: #0b1320;
+  --color-surface: #111a2b;
+  --color-surface-alt: #141f33;
+  --color-border: #1f2a3d;
+  --color-text: #f5f7ff;
+  --color-muted: #9aa4b2;
+  --color-accent: #d8a84d;
+  --color-danger: #e46c6c;
+  font-family: 'Inter', system-ui, sans-serif;
+  color-scheme: dark;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
