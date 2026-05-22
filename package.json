@@ -1,0 +1,31 @@
+{
+  "name": "receiptly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests configured'",
+    "dev:web": "npm run dev -w web",
+    "dev:mobile": "npm run start -w mobile",
+    "build:web": "npm run build -w web",
+    "lint:web": "npm run lint -w web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clegas3/receiptly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Clegas3/receiptly/issues"
+  },
+  "homepage": "https://github.com/Clegas3/receiptly#readme",
+  "private": true,
+  "workspaces": [
+    "web",
+    "mobile",
+    "packages/shared"
+  ]
+}
